@@ -1,0 +1,27 @@
+body {
+    background-color: #FCF9EE;
+    /* "color" cambia el color de todo el texto */
+    color: #222725;
+    font-family: 'Belanosima', sans-serif;
+    font-size: medium;
+}
+/* El punto se usa SOLO para las clases */
+.titulo{
+    color: #5634AB;
+    font-size: 50px;
+}
+
+/* Aquí no utilizamos "." */
+h2{ /* modifica a TODOS los H2*/
+    color: #7F6987;
+}
+
+img{ /* Esto va a aplicar a todos los elementos img que no tengan nombre propio como "imagen1" */
+    width: 500px;
+}
+/*
+selector {
+    propiedad: valor;
+}
+*/
+

@@ -1,0 +1,128 @@
+<!-- Declaración de archivo tipo HTML-->
+<!DOCTYPE html>  
+<!-- lang Lenguaje del sitio-->
+<html lang="es">
+<!-- Head (Metadata) info para el navegador -->  
+<!-- Aquí mismo en HEAD va lo de las fuentes--> 
+<head> <!-- en el HEAD se incluye la info para vincular CSS con HTML -->
+    <meta charset="UTF-8"> <!-- los caracteres que se utilizan-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trastornos Mentales</title>
+    <!-- Lo más usual es justo al hoja de estilo -->
+    <!-- lo redireccionas con "/" y el nombre de tu archivo -->
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&display=swap" rel="stylesheet">
+</head>
+<!-- body - Lo que ve la usuaria -->
+<body>
+    <main> <!-- MAIN es cajita invisible que nos guarda y acomoda cosas -->
+        <h1 class="titulo">Trastornos Mentales </h1>
+        <!-- con CLASS le doy un atributo para después llamarlo en CSS -->
+
+        <div> <!-- otra división -->
+            <!-- A es ancla, anchor, crea enlace a otro lugar de la web-->
+            <!-- le dice "busca esta palabra en el ID de todo el html"-->
+            <!-- SIEMPRE lleva un "#" primero, si no, no lo encuentra-->
+            <!-- ancla nos redirige tanto dentro de la misma página, como a otros vínculos en otras páginas-->
+            <a href="#depresion">Depresión</a>
+            <a href="#ansiedad">Trastornos de Ansiedad</a>
+            <a href="#tdah">Trastorno de Déficit de Atención e Hiperactividad</a>
+            <a href="#tca">Trastornos de la Conducta Alimentaria</a>
+            <br><br>
+        </div>
+
+        <!-- IMAGEN DESDE LA WEB -->
+        <img class="imagen1" src="images/trastornos.jpg" alt="mental illnes art">
+        <!-- BR es como un siguiente renglón -->
+        <br>
+        <!-- IMAGEN DESDE COMPUTADORA (/) -->
+        <!--  <img src="/images/foto_killens.jpg" alt="foto killens"> -->
+
+        <div>
+            <!-- LISTAS -->
+            <h3>Top de Trastornos más comunes</h3>
+            <!-- ORDERED LIST (VAN A VENIR 1,2,3,4,...)-->
+            <ol> 
+                <li>Depresión</li> <!-- TIP li*9 fue lo que hicimos aquí-->
+                <li>Trastornos de ansiedad</li>
+                <li>Trastorno de Déficit de Atención e Hiperactividad</li>
+                <li>Trastornos de la Conducta Alimentaria</li>  
+            </ol>
+            <!-- UN ORDERED LIST-->
+            <h3>¿Cómo cuidar de tu salud mental?</h3>
+            <ul>
+                <li>Ten una red de apoyo</li>
+                <li>Evita el sedentarismo</li>
+                <li>Aliméntate bien</li>
+                <li>Descansa bien</li>
+                <li>Crea rutinas balanceadas</li>
+                <li>Ve a terapia si es posible</li>
+            </ul>
+        </div>
+        <!-- LÍNEA SEPARADORA (HR) -->
+        <hr>
+        <!-- TEMAS -->
+
+        <div>  <!-- le pusimos un ID, un atributo antes de que se cierre el ">" -->
+            <h2 id="depresion">Depresión</h2>
+            <p>
+                La depresión es un trastorno emocional que causa un sentimiento de tristeza constante y una pérdida de interés en realizar diferentes actividades. También denominada «trastorno depresivo mayor» o «depresión clínica», afecta los sentimientos, los pensamientos y el comportamiento de una persona, y puede causar una variedad de problemas físicos y emocionales. Es posible que tengas dificultades para realizar las actividades cotidianas y que, a veces, sientas que no vale la pena vivir.
+                
+                Más que solo una tristeza pasajera, la depresión no es una debilidad y uno no puede recuperarse de la noche a la mañana de manera sencilla. La depresión puede requerir tratamiento a largo plazo. Pero no te desanimes. La mayoría de las personas con depresión se sienten mejor con medicamentos, con psicoterapia o con ambos.
+            </p>
+
+            <h2 id="ansiedad">Trastornos de ansiedad</h2>
+            <p>
+                Sentir ansiedad de modo ocasional es una parte normal de la vida. Sin embargo, las personas con trastornos de ansiedad con frecuencia tienen preocupaciones y miedos intensos, excesivos y persistentes sobre situaciones diarias. Con frecuencia, en los trastornos de ansiedad se dan episodios repetidos de sentimientos repentinos de ansiedad intensa y miedo o terror que alcanzan un máximo en una cuestión de minutos (ataques de pánico).
+
+                Estos sentimientos de ansiedad y pánico interfieren con las actividades diarias, son difíciles de controlar, son desproporcionados en comparación con el peligro real y pueden durar un largo tiempo. Con el propósito de prevenir estos sentimientos, puede suceder que evites ciertos lugares o situaciones. Los síntomas pueden empezar en la infancia o la adolescencia y continuar hasta la edad adulta.
+
+                Algunos ejemplos del trastorno de ansiedad son: trastorno de ansiedad generalizada, trastorno de ansiedad social (fobia social), fobias específicas y trastorno de ansiedad por separación. Puedes tener más de un trastorno de ansiedad. A veces, la ansiedad surge de una enfermedad que requiere tratamiento.
+
+                Cualquiera sea el tipo de ansiedad que padezcas, un tratamiento puede ayudar.
+            </p>
+
+            <h2 id="tdah">Trastorno de Déficit de Atención e Hiperactividad</h2>
+            <p>
+                El trastorno por déficit de atención e hiperactividad (TDAH) es una afección crónica que afecta a millones de niños y a menudo continúa en la edad adulta. El TDAH incluye una combinación de problemas persistentes, tales como dificultad para mantener la atención, hiperactividad y comportamiento impulsivo.
+
+                Los niños con TDAH también pueden tener dificultades con la baja autoestima, las relaciones problemáticas y el bajo rendimiento escolar. Los síntomas a veces disminuyen con la edad. Sin embargo, algunas personas nunca superan por completo sus síntomas de TDAH. Pero pueden aprender estrategias para tener éxito.
+                
+                Aunque el tratamiento no cura el TDAH, puede ayudar mucho con los síntomas. El tratamiento comúnmente involucra medicamentos e intervenciones conductuales. El diagnóstico y tratamiento tempranos pueden hacer una gran diferencia en el resultado.  
+            </p>
+            <h2 id="tca">Trastornos de la Conducta Alimentaria</h2>
+            <p>Los Trastornos de la Conducta Alimentaria (TCA) son enfermedades mentales graves que se relacionan con una conducta alterada respecto a los hábitos alimentarios, lo que se traduce en comportamientos que van desde comer de manera descontrolada hasta la falta de ingesta de comida. Afecta principalmente a adolescentes y mujeres jóvenes y en su aparición influyen principalmente factores biológicos y de personalidad.  Los trastornos más frecuentes son la Anorexia y la Bulimia Nerviosa, el Trastorno por Atracones y el Trastorno Evitativo/Restrictivo de la Ingesta Alimentaria.</p>
+        </div>
+        <a href="https://www.who.int/data/gho/data/themes/theme-details/GHO/mental-health">Lee más aquí</a>
+        
+        <!-- FORMULARIOS -->
+        <div>
+            <!-- Form, le pregunta cosas al usuario-->
+            <form action="/enviar-respuesta">
+                <!-- BOTÓN DE RADIO -->
+                <P>¿Cuánta shoras duermes en una noche?</P>
+                <label for="pocas"> <!-- LABEL es una opción-->
+                    <!-- Si le das "checked" es el que va a aparecer seleccionado por default -->
+                    <input type="radio" name="sueño" checked> 4 - 6 horas 
+                    <!-- Vimos 3 opciones de "type"-->
+                    <!-- text: la de default, el usuario escribe-->
+                    <!-- radio: solo le permite escoger UNA opción-->
+                    <!-- checkbox: le permite seleccionar varias -->
+                </label> <!-- HTML sabe que es el mismo formulario porque todas tienen el name de "sueño"-->
+
+                <label for="suficientes">
+                    <input type="radio" name="sueño"> 6 - 8 horas 
+                </label>
+
+                <label for="normal">
+                    <input type="radio" name="sueño"> + de 8 horas 
+                </label>
+
+            </form>
+        </div>
+    </main>
+
+</body>
+</html>
